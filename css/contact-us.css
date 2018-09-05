@@ -1,0 +1,46 @@
+form label {
+	font-weight: bold;
+	width: 20%;
+	text-align: right;
+	font-family: Arial;
+}
+
+form {
+	width: 50%;
+	display: block;
+	margin-left: 11%;
+}
+
+form:after, form textarea:after, form:before, form:nth-child(even):before, form label:before, form label:after, form input:nth-child(even):after, body > h1:after {
+	content: "\A";
+	white-space: pre;
+}
+
+form input, form textarea {
+	margin-bottom: 2%;
+	display: inline-block;
+}
+
+form textarea {
+	width: 50%;
+	height: 80px;
+	margin-bottom: 40px;
+}
+
+form input[type="submit"] {
+	margin-left: -45%;
+	padding: 10px;
+}
+
+[type="email"]:not(:invalid), [type="text"]:not(:invalid), textarea:not(:invalid) {
+	border: 1px solid green;
+}
+
+[type="email"]:invalid, [type="text"]:invalid, textarea:invalid {
+	border: 1px solid red;
+}
+
+#form-error {
+	margin-left: 12%;
+	color: red;
+}

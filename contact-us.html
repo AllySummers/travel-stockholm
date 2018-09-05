@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Contact Us - Travel Stockholm</title>
+	<link rel="stylesheet" type="text/css" href="css/styles.css">
+	<link rel="stylesheet" href="css/contact-us.css">
+	<script type="text/javascript" src="js/forms.js"></script>
+	<!-- <link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico"> -->
+</head>
+<body>
+	<header>
+		<nav>
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="accomodation.html">Accomodation</a></li>
+				<li><a href="food-in-stockholm.html">Food in Stockholm</a></li>
+				<li><a href="index.html"><img src="img/stockholm-logo.svg.png"></a></li>
+				<li><a href="tourist-highlights.html">Tourist Highlights</a></li>
+				<li><a href="getting-around.html">Getting Around</a></li>
+				<li><a href="#">Contact Us</a></li>
+			</ul>
+		</nav>
+	</header>
+	<h1>Travel Stockholm - Contact Us</h1>
+
+	<form name="contact" action="#" method="POST" onsubmit="validateForm()">
+		<label for="contact-name">Name:</label>
+		<input name="contact-name" id="contact-name" type="text" placeholder="John Smith">
+		<label for="contact-email">Email:</label>
+		<input name="contact-email" id="contact-email" type="text" placeholder="john.smith@yahoo.com">
+		<label for="contact-subject">Subject:</label>
+		<input name="contact-subject" id="contact-subject" type="text" placeholder="Subject">
+		<label for="contact-message">Message:</label>
+		<textarea name="contact-message" placeholder="Please enter a message..."></textarea>
+		<input name="contact-submit" type="submit" value="Submit">
+	</form>
+	<p id="form-error"></p>
+	<footer>
+		<em>Copyright Travel Stockholm, 2018</em>
+		<div id="pagination">
+			<ul>
+				<li><a href="sitemap.html">Sitemap</a></li>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="accomodation.html">Accomodation</a></li>
+				<li><a href="food-in-stockholm.html">Food in Stockholm</a></li>
+				<li><a href="tourist-highlights.html">Tourist Highlights</a></li>
+				<li><a href="getting-around.html">Getting Around</a></li>
+				<li>Contact Us</li>
+			</ul>
+		</div>
+		<em>Designed by Lance E</em>
+	</footer>
+</body>
+</html>
